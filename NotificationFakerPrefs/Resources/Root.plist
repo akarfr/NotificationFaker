@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>NotificationFaker</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>App</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>Select App</string>
+			<key>key</key>
+			<string>selectedBundleID</string>
+			<key>defaults</key>
+			<string>com.noisyflake.internaltest</string>
+			<key>default</key>
+			<string>com.apple.MobileSMS</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array/>
+			<key>validValues</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notification</string>
+			<key>footerText</key>
+			<string>Sender sets the notification title and groups notifications per person. Leave it blank to use the Title field instead.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Sender</string>
+			<key>key</key>
+			<string>notifSender</string>
+			<key>defaults</key>
+			<string>com.noisyflake.internaltest</string>
+			<key>default</key>
+			<string></string>
+			<key>placeholder</key>
+			<string>e.g. John Appleseed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Title</string>
+			<key>key</key>
+			<string>notifTitle</string>
+			<key>defaults</key>
+			<string>com.noisyflake.internaltest</string>
+			<key>default</key>
+			<string>Notification</string>
+			<key>placeholder</key>
+			<string>Used when Sender is blank</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Message</string>
+			<key>key</key>
+			<string>notifMessage</string>
+			<key>defaults</key>
+			<string>com.noisyflake.internaltest</string>
+			<key>default</key>
+			<string></string>
+			<key>placeholder</key>
+			<string>e.g. Hey, are you free tonight?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Send Notification</string>
+			<key>action</key>
+			<string>sendTestNotification:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Made with love by akarfr</string>
+			<key>action</key>
+			<string>openGitHub:</string>
+		</dict>
+	</array>
+</dict>
+</plist>

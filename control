@@ -1,0 +1,9 @@
+Package: com.akarfr.notificationfaker
+Name: NotificationFaker
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: Fake notifications from any app
+Maintainer: akarfr
+Author: akarfr
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
